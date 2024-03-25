@@ -1,0 +1,28 @@
+{
+  "Ingles": {
+    "titulo": "Professional and Structured HTML Code Generator",
+    "btn-descargar": "Download extension",
+    "que-titulo": "What is",
+    "que-uno": " Professional html code generator with a larger amount of  meta tags including author, description, keywords, theme color, twitter card, etc.",
+    "como-titulo": "whi",
+    "como-uno": "Using the `html-basic` or `html-pro` snippets, flat HTML code is generated, using `html-basic.` html code is generated with its CSS and javaScript files but with `html-pro/` a folder is generated for styles and javaScript files",
+    "card-basic-p": "HTML code structure with the necessary meta tags for a project.",
+    "card-basic.-p": "HTML code structure with the necessary meta tags for a project and its respective css, javaScript files.",
+    "pro": "Professional html code structure, includes meta tags like style, twitter-card, apple-touch-icon instantly.",
+    "pro/": "Create a style and Script folder including all the html-pro snippets code",
+    "creador": "created by"
+  },
+  "Español": {
+    "titulo": "Generador de código HTML profesional y Estructurado",
+    "btn-descargar": "Descargar extension",
+    "que-titulo": "Que es",
+    "que-uno": "  Generador de codigo html profesional con una cantidad mayor de meta etiquetas que incluyen autor, description, keywords, theme-color, twitter-card etc.",
+    "como-titulo": "como",
+    "como-uno": "Usando los snippets `html-basic` o `html-pro`, se genera código HTML plano, usando `html-basic.` se genera  codigo html con sus archivos CSS y javaScript pero con `html-pro/` se genera una carpeta para los estilos y archivos javaScript",
+    "card-basic-p": "Estructura de codigo html con las meta etiquetas necesarias para un proyecto.",
+    "card-basic.-p": "Estructura de codigo html con las meta etiquetas necesarias para un proyecto y sus respectivos archivos css, javaScript.",
+    "pro": " Estructura de codigo html profesional, incluye meta etiquetas como style, twitter-card, apple-touch-icon al instante.",
+    "pro/": "Crea una carpeta style y Script incluyendo todo el codigo del snippets html-pro.",
+    "creador": "Creado por"
+  }
+}
