@@ -1,6 +1,6 @@
 let idiomas = "";
 
-fetch("http://127.0.0.1:5500/datos/idiomas.json")
+fetch("https://luispicon.github.io/HtmlPro-homePages/datos/idiomas.json")
   .then((response) => {
     if (!response.ok) {
       throw new Err("error en la traducción");
