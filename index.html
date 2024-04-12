@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" data-bs-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,15 +9,28 @@
       content="homepages of the vsCODE html pro extension"
     />
     <!--Title-->
-    <title>Html pro</title>
+    <title>Html Pro</title>
     <!--author-->
     <meta name="author" content="Luis Eduardo Rodriguez Picón" />
     <!--styles-->
-    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/fastbootstrap@2.2.0/dist/css/fastbootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha256-V6lu+OdYNKTKTsVFBuQsyIlDiRWiOmtC8VQ8Lzdm2i4="
+      crossorigin="anonymous"
+    />
+
     <!--keyWords-->
     <meta name="keywords" content="html, snippets, visual estudio code" />
     <!--icono-->
-    <link rel="icon" href="https://img.icons8.com/pulsar-color/96/owl.png" />
+    <link rel="icon" href="https://img.icons8.com/papercut/60/owl.png"  />
     <!--Social Media Sharing Metadata-->
     <meta name="twitter:card" content="summary" />
     <meta property="og:title" content="HTMLPro" />
@@ -25,14 +38,18 @@
       property="og:description"
       content="homepages of the vsCODE html pro extension"
     />
-    <meta property="og:image" content="https://i.imgur.com/ss7QPLV.png" />
+    <meta property="og:image" content="https://i.imgur.com/gx6l190.png" />
     <meta
       property="og:url"
       content="https://luispicon.github.io/HtmlPro-homePages/"
     />
     <!--phone finder color-->
-    <meta name="theme-color" content="#1f2937" />
+    <meta name="theme-color" content="" />
     <!--fuentes-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -41,111 +58,130 @@
     />
   </head>
   <body>
-    <header class="header">
-      <div class="header-contenedor">
-        <a href="#inicio">Html <span class="pro">Pro</span></a>
-        <div class="header-mas">
-          <select class="select">
-            <option selected value="Español">ES</option>
-            <option value="Ingles">EN</option>
-          </select>
+    <header class="p-3">
+      <nav class="container d-flex justify-content-between align-items-center">
+        <h1 class="h3">Html<span class="text-html-color">Pro</span></h1>
+        <div class="d-flex align-items-center gap-3">
           <a
             href="https://github.com/LuisPicon/htmlPro"
             target="_blank"
             rel="nofollow"
           >
-            <img
-              width="64"
-              height="64"
-              src="https://img.icons8.com/sf-black-filled/64/FFFFFF/github.png"
-              alt="github"
-            />
+            <i class="bi bi-github text-body"></i>
           </a>
+          <i class="bi bi-lightbulb-fill dark-mode"></i>
+          <div class="dropdown">
+            <button
+              class="btn p-1 border-0 dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="bi bi-translate"></i>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+              <li>
+                <a class="dropdown-item" href="#ES" id="ES">Spanish</a>
+              </li>
+              <li><a class="dropdown-item" href="#EN" id="EN">English</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
+      </nav>
     </header>
-    <main class="main">
-      <h1 class="main-titulo">
-        <span id="titulo"
-          >Generador de código HTML profesional y estructurado</span
-        >🦉
-      </h1>
-      <a
-        href="vscode:extension/HTMLPro.html-pro"
-        class="main-btn"
-        id="btn-descargar"
-        >Descargar extension</a
-      >
-      <div class="main-informacion">
-        <div class="que" id="que">
-          <h2>
-            #<span id="que-titulo">Que es</span>
-            <span class="como-pro">Html PRO</span>?
-          </h2>
-          <ul>
-            <li id="que-uno">
-              Generador de codigo html profesional con una cantidad mayor de
-              meta etiquetas que incluyen autor, description, keywords,
-              theme-color, twitter-card etc.
-            </li>
-          </ul>
+    <main class="">
+      <section class="container">
+        <div class="mt-3 pt-3 m-auto">
+          <h2 id="titulo">Generador código HTML profesional</h2>
+          <p>
+            <span class="text-primary">+40 </span
+            ><span id="more-info"
+              >descargas en los primeros 16 días, 2 descargas diarias.</span
+            >
+          </p>
+          <a href="vscode:extension/HTMLPro.html-pro" class="btn btn-primary" id="btn-descargar" >Descargar</a>
+          
+          </button>
         </div>
-        <div class="como" id="como">
-          <h2>#<span id="como-titulo" class="como-titulo">como</span>?</h2>
-          <ul>
-            <li id="como-uno">
-              Usando los snippets `html-basic` o `html-pro`, se genera código
-              HTML plano, usando `html-basic.` se genera codigo html con sus
-              archivos CSS y javaScript pero con `html-pro/` se genera una
-              carpeta para los estilos y archivos javaScript.
-            </li>
-          </ul>
+        <div class="mt-3 pt-3 m-auto">
+          <h4 id="que-titulo">Que es?</h4>
+          <p class="" id="que-uno">
+            Generador de codigo html profesional con una cantidad mayor de meta
+            etiquetas que incluyen autor, description, keywords, theme-color,
+            twitter-card etc.
+          </p>
+          <h4 id="como-titulo">Como?</h4>
+          <p id="como-uno">
+            Usando los snippets <i>html-basic</i> o <i>html-pro</i>, se genera
+            código HTML plano, usando <i>html-basic.</i> se genera codigo html
+            con sus archivos CSS y javaScript pero con <i>html-pro/</i> se
+            genera una carpeta para los estilos y archivos javaScript.
+          </p>
         </div>
-      </div>
+      </section>
+      <section class="container">
+        <h3>Snippets</h3>
+        <kbd>html-basic</kbd>
+        <p class="mt-3" id="card-basic-p">
+          Estructura de codigo html con las meta etiquetas necesarias para un
+          proyecto.
+        </p>
+        <img
+          src="https://i.imgur.com/YaK2y35.gif"
+          class="img-fluid"
+          alt="html-basic"
+        />
+        <hr />
+        <kbd>html-basic.</kbd>
+        <p class="mt-3" id="card-basic.-p">
+          Estructura de codigo html con las meta etiquetas necesarias para un
+          proyecto y sus respectivos archivos css, javaScript.
+        </p>
+        <img
+          src="https://i.imgur.com/QPGY6yS.gif"
+          alt="html-basic"
+          class="img-fluid"
+        />
+        <hr />
+        <kbd>html-pro</kbd>
+        <p class="mt-3" id="pro">
+          Estructura de codigo html profesional, incluye meta etiquetas como
+          style, twitter-card, apple-touch-icon al instante.
+        </p>
+        <img
+          src="https://i.imgur.com/Qx2jAUc.gif"
+          alt="html-pro"
+          class="img-fluid"
+        />
+
+        <hr />
+        <kbd>html-pro/</kbd>
+        <p class="mt-3" id="pro/">
+          Crea una carpeta style y Script incluyendo todo el codigo del snippets
+          html-pro
+        </p>
+        <img
+          src="https://i.imgur.com/vRRgFlK.gif"
+          alt="html-pro/"
+          class="img-fluid"
+        />
+      </section>
     </main>
-    <section class="snippets">
-      <h2>Snippets</h2>
-      <div class="snippets-grid">
-        <div class="div snippets-grid-cardBasic">
-          <h4>html-basic</h4>
-          <p id="card-basic-p">
-            Estructura de codigo html con las meta etiquetas necesarias para un
-            proyecto.
-          </p>
-          <img src="https://i.imgur.com/YaK2y35.gif" alt="html-basic" />
-        </div>
-        <div class="div snippets-grid-cardBasic.">
-          <h4>html-basic.</h4>
-          <p id="card-basic.-p">
-            Estructura de codigo html con las meta etiquetas necesarias para un
-            proyecto y sus respectivos archivos css, javaScript.
-          </p>
-          <img src="https://i.imgur.com/QPGY6yS.gif" alt="html-basic" />
-        </div>
-        <div class="div snippets-grid-cardPro">
-          <h4>html-pro</h4>
-          <p id="pro">
-            Estructura de codigo html profesional, incluye meta etiquetas como
-            style, twitter-card, apple-touch-icon al instante.
-          </p>
-          <img src="https://i.imgur.com/Qx2jAUc.gif" alt="html-basic" />
-        </div>
-        <div class="div snippets-grid-cardPro/">
-          <h4>html-pro/</h4>
-          <p id="pro/">
-            Crea una carpeta style y Script incluyendo todo el codigo del
-            snippets html-pro
-          </p>
-          <img src="https://i.imgur.com/vRRgFlK.gif" alt="html-basic" />
-        </div>
-      </div>
-    </section>
-    <footer>
+    <hr class="" />
+    <footer class="text-center">
       <p>
         <span id="creador">Creado por</span>
-        <em><a href="" target="_blank" rel="nofollow">LuisPicon</a></em>
+        <a href="https://luispicon.online" target="_blank " class="link-info"
+          ><i>luispicon</i></a
+        >
       </p>
     </footer>
-    <script src="scripts/main.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
   </body>
 </html>
