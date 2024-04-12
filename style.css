@@ -1,0 +1,25 @@
+.text-html-color {
+  color: #ff822d;
+}
+.btn-descargar {
+  background-color: #ff822d !important;
+
+  border: none !important;
+  outline: none !important;
+
+  transition: filter 0.3s ease;
+}
+.btn-descargar:hover {
+  filter: drop-shadow(0 0 1em #ff822d) !important;
+}
+.dark-mode {
+  cursor: pointer;
+}
+.dark-mode:hover {
+}
+@media (min-width: 768px) {
+  section {
+    max-width: 64rem !important;
+    width: 50% !important;
+  }
+}
